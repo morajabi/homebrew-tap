@@ -1,7 +1,7 @@
-# Generated from packaging/homebrew in morajabi/poo for v0.1.16. Do not edit here.
+# Generated from packaging/homebrew in morajabi/poo for v0.1.18. Do not edit here.
 cask "poo-app" do
-  version "0.1.16"
-  sha256 "6529b19b8a607070f0d586ea93fd810bf7c93df6a7094ef585ce8690c987ad66"
+  version "0.1.18"
+  sha256 "34641f31157a0e97513d1d6f3dc26432e805214e7962f2d01dc74751c7446104"
 
   url "https://github.com/morajabi/poo/releases/download/v#{version}/Poo.app.zip"
   name "Poo"
