@@ -1,4 +1,4 @@
-# Generated from packaging/homebrew in morajabi/poo for v0.1.18. Do not edit here.
+# Generated from packaging/homebrew in morajabi/poo for v0.1.19. Do not edit here.
 class Poo < Formula
   desc "Safely free disk space eaten by dev builds, worktrees, caches and simulators"
   homepage "https://github.com/morajabi/poo"
@@ -6,23 +6,23 @@ class Poo < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/morajabi/poo/releases/download/v0.1.18/poo-aarch64-apple-darwin.tar.gz"
-      sha256 "41803f96c2de4dac383c260b4d204861614008eebbe44237b2f0999fad8e0404"
+      url "https://github.com/morajabi/poo/releases/download/v0.1.19/poo-aarch64-apple-darwin.tar.gz"
+      sha256 "4f299e2477c72a06555810ab61ff9f367d4300d6000ef7fc575fbc6f1c3119ba"
     end
     on_intel do
-      url "https://github.com/morajabi/poo/releases/download/v0.1.18/poo-x86_64-apple-darwin.tar.gz"
-      sha256 "e37f36aae11159cfa62bd055a6f4e9a56d4978994b256fe0d74b843885ae1d75"
+      url "https://github.com/morajabi/poo/releases/download/v0.1.19/poo-x86_64-apple-darwin.tar.gz"
+      sha256 "ca9320f1c882542ec05b7600f1dde593a82db65780aa91561ae1889a1445dce8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/morajabi/poo/releases/download/v0.1.18/poo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b231dfa29fc90ef135b846f436f980899294975d5bfddf024f386e9c36a8042c"
+      url "https://github.com/morajabi/poo/releases/download/v0.1.19/poo-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "95deae736e15eff5a2fa7dba95cbe64c02485f15887dfccc5e36315e4c7c7ecb"
     end
     on_intel do
-      url "https://github.com/morajabi/poo/releases/download/v0.1.18/poo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2f6e3cc163a589936de5e7f4d2788d2f49274f3769feac6634f168fa5fafe5d6"
+      url "https://github.com/morajabi/poo/releases/download/v0.1.19/poo-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1b8a451c6e843f95023b8b17215948fd470222de40dd06ea57af7d2aa991a7c3"
     end
   end
 
